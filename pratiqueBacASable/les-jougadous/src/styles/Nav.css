@@ -1,0 +1,24 @@
+.ljNav {
+    
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+height: 60px;
+background-color: rgb(130, 181, 225);
+color: white;
+text-decoration: none;
+
+}
+
+.ljNav a{
+    text-decoration: none;
+    color: white;
+    margin:10px
+}
+
+.ljNav a:hover{
+    margin-right:15px;
+    color:red;
+}
